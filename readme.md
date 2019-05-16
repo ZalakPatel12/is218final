@@ -1,3 +1,7 @@
+Hello Professor, Me and my partner Angela, we did this project together. Since it was not working on her computer she couldn't make any changed or commits but we did this project equally. She created the questions and answers blade.php, controllers and I, Zalak Patel created the tables, migrations but all over we gave equal amount of contribution. Please grade us euqally. Thank you ! 
+
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
