@@ -1,17 +1,12 @@
 <?php
-
 namespace App;
-
 use Illuminate\Database\Eloquent\Model;
-
-class profileTest extends Model
+class Profile extends Model
 {
-    public function testSave()
+    protected $fillable = ['fname', 'lname', 'body'];
+    //
+    public function user()
     {
-        $user = factory(\App\User::class)->make();
-        $user->save();
-        $profile = factory(\App\Profile::class)->make();
-        $profile->user()->associate($user);
-        $this->assertTrue($profile->save());
+        return $this->belongsTo('App\User');
     }
 }
