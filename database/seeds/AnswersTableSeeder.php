@@ -1,7 +1,5 @@
 <?php
-
 use Illuminate\Database\Seeder;
-
 class AnswersTableSeeder extends Seeder
 {
     /**
@@ -20,5 +18,6 @@ class AnswersTableSeeder extends Seeder
                 $answer->question()->associate($question);
                 $answer->save();
             });
+        }
     }
 }
